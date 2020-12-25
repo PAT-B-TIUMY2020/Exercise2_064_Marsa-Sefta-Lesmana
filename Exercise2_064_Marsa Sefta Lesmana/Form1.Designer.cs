@@ -136,6 +136,7 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(376, 341);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // btsearch
             // 
@@ -143,7 +144,7 @@
             this.btsearch.Name = "btsearch";
             this.btsearch.Size = new System.Drawing.Size(83, 39);
             this.btsearch.TabIndex = 13;
-            this.btsearch.Text = "Search";
+            this.btsearch.Text = "Delete";
             this.btsearch.UseVisualStyleBackColor = true;
             this.btsearch.Click += new System.EventHandler(this.btdel_Click);
             // 

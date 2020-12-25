@@ -19,6 +19,8 @@ namespace ServerCode_Exercise2_064
         public Form1()
         {
             InitializeComponent();
+            label2.Visible = true;
+            button2.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
